@@ -1,0 +1,22 @@
+Here is the list of latest releases including release notes. 
+
+
+|**Package**  | **Release number** |**Release date**  | **Release notes**|
+|--|--|--|--|
+|Core Localization  | AdLocalization_10.0_2021.03.17.1 |17.3.2021  | [Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|Tax package  | AdLocalization_10.0_2021.03.17.1 |17.3.2021  |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|Bank package | AdLocalization_10.0_2021.03.17.1 |17.3.2021    |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|Additional Exchange rate providers package  |AdLocalization_10.0_2021.03.17.1 |17.3.2021    | [Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true) |
+|Additional General Ledger package  |AdLocalization_10.0_2021.03.17.1 |17.3.2021   |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|Fiscalization package  |AdLocalization_10.0_2021.03.17.1 |17.3.2021    |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|KEP package (only for Sebia) |AdLocalization_10.0_2021.03.17.1 |17.3.2021  |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B6C8DCB9B-E8EF-4509-A4EB-C2FC57F87DFA%7D&file=Release%20notes%20AdLoc10.xlsx&action=default&mobileredirect=true)  |
+|Judicial dunning procedure  |AdSuiteDunn_10.0_2020.11.11.1 |11.11.2020  | [Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7BC797F66B-C93E-4248-8831-4821B4CEC517%7D&file=Release%20notes%20AdSuiteDunning.xlsx&action=default&mobileredirect=true) |
+|Advanced Banking  |AdSuiteBankStmt_10.0_2021.03.17.1 |17.3.2021  |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B3B0FB985-397F-4FDA-8C56-38CE41820B13%7D&file=Release%20notes%20AdSuiteBankStatements.xlsx&action=default&mobileredirect=true)  |
+|Travel and Expenses enhancements  |AdSuiteTrv_10.0_2021.03.17.1 |17.3.2021 |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B8573AD0B-2436-4908-87B3-9BF850CC6684%7D&file=Release%20notes%20AdSuiteTRV.xlsx&action=default&mobileredirect=true)  |
+|Deferrals in Accounts Payable  |AdSuiteDef_10.0_2021.03.17.1 |17.3.2021 |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B520A8FAA-1B03-41EF-AA5D-C15DCC9BDD9B%7D&file=Release%20notes%20AdSuiteDeferrals.xlsx&action=default&mobileredirect=true)  |
+|Fixed assets management  |AdSuiteFAM_10.0_2021.03.17.1 |17.3.2021 |[Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B071EE640-A36C-4130-B32E-2A1EE3073671%7D&file=Release%20notes%20AdSuiteFixedAssetManagement.xlsx&action=default&mobileredirect=true)  |
+|Compensations  |AdSuiteComp_10.0_2021.03.17.1 |17.3.2021 | [Release notes](https://ternaprod.sharepoint.com/:x:/r/sites/ERP-Product-Development/_layouts/15/Doc.aspx?sourcedoc=%7B1278742D-10F0-4BF7-9D24-A399905D3138%7D&file=Release%20notes%20AdSuiteCompensations.xlsx&action=default&mobileredirect=true) |
+|Public holidays  |AdSuitePublHol_10.0_2020.11.11.1 |11.11.2020|  |
+|Procurement enhancements  |AdSuiteProcEnh_10.0_2021.03.17.1 |17.3.2021 |  |
+|Public Procurement  |AdSuitePublProc_10.0_2021.03.17.1 |17.3.2021 |  |
+|GDPR |AdSuiteGDPR_10.0_2021.01.11.1 |11.1.2021 |  |

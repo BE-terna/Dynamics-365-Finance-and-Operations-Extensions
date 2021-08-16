@@ -1,0 +1,1 @@
+For reporting purposes different identification numbers were added to Legal entity, Customer and Vendor entities. Registration categories, that are used in connection with Registration ID's were also extended with local identification numbers.  

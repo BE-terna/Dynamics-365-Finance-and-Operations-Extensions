@@ -1,0 +1,1 @@
+Here you can find some tips and tricks that will make D365FO journey easier.

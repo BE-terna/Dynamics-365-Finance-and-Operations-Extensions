@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ERSolutionVersion DateTime="2017-03-29T12:05:20" Number="6" PublicVersionNumber="5.6" VersionStatus="1">
+  <Solution>
+    <ERSolution ID.="{4D61284B-B695-4851-9B69-4D9A437F10BE}" Base="{0812F159-AD20-4BB8-9372-1FFFA227F63C},5" Name="PPPDVXmlFormat">
+      <Vendor>
+        <ERVendor Name="Adacta" Url="http://www.adacta-group.com" />
+      </Vendor>
+      <Contents.>
+        <Ref. ID.="{8A1DE431-D688-4C59-A57E-055DE168B9F4}" />
+        <Ref. ID.="{FC0D5F28-CAC9-4DB7-AA60-AB7010C9AD55}" />
+      </Contents.>
+    </ERSolution>
+  </Solution>
+  <Contents.>
+    <ERFormatVersion ID.="{8A1DE431-D688-4C59-A57E-055DE168B9F4},3" DateTime="2017-03-29T11:40:39" Number="3">
+      <Format>
+        <ERTextFormat ID.="{8A1DE431-D688-4C59-A57E-055DE168B9F4}" Name="PPPDVXmlFormat" Type="ERComponentFormatTypeAttributeXML">
+          <EnumList>
+            <EREnumDefinitionList />
+          </EnumList>
+          <Root>
+            <ERTextFormatXMLElement ID.="{AEF6BD58-A87A-46C9-B1F3-B3FAFBE434EC}" Name="EPPPDV">
+              <Contents.>
+                <ERTextFormatXMLAttribute ID.="{906E4D53-D211-4E94-89B4-86CBCCD0B27F}" Name="xmlns:xsd" Value="http://www.w3.org/2001/XMLSchema" />
+                <ERTextFormatXMLAttribute ID.="{EBB9C7A3-7FE1-4820-85B5-C88DA1A25A8A}" Name="xmlns:xsi" Value="http://www.w3.org/2001/XMLSchema-instance" />
+                <ERTextFormatXMLElement ID.="{93634A99-0E5D-4F19-8416-A54784610458}" Name="envelopa">
+                  <Contents.>
+                    <ERTextFormatXMLAttribute ID.="{48663ABD-C5EC-4ADC-B346-7BAF21993D84}" Name="timestamp" />
+                    <ERTextFormatXMLAttribute ID.="{6AA44C55-B1A9-40B4-867C-DD279463265D}" Name="nacinPodnosenja" Value="elektronski" />
+                    <ERTextFormatXMLElement ID.="{3575455B-4C98-457C-87C4-71F4008C5B9F}" Name="sadrzaj">
+                      <Contents.>
+                        <ERTextFormatXMLElement ID.="{9505E117-CB1E-4572-8B6A-A155CC80AFCB}" Name="OJ">
+                          <Contents.>
+                            <ERTextFormatString ID.="{4F4F5EF4-2F8F-423F-BD38-56A042C2C810}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{2DCE716D-FEF4-41D3-856D-AF73A0562BA7}" Name="PIB">
+                          <Contents.>
+                            <ERTextFormatString ID.="{C2C3F612-AE56-4831-A003-45F9047A21A5}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{D14EE717-1DD5-4232-AB9F-400AAE038763}" Name="Firma">
+                          <Contents.>
+                            <ERTextFormatString ID.="{34CE3FBC-D583-4CEE-ADDA-0371F72E4A18}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{48C09C13-8162-4C1B-8AE7-F0A956CEA95D}" Name="Opstina">
+                          <Contents.>
+                            <ERTextFormatString ID.="{D203D961-8E66-48F8-925E-235241E7711B}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{DE604DF7-5230-4C25-8099-E080EDB3DC06}" Name="Adresa">
+                          <Contents.>
+                            <ERTextFormatString ID.="{03F4B9D0-BBCC-4E6D-A90B-88CE51AC8748}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{08524CFA-8FA6-4C40-A9BB-6BDD94F75B7E}" Name="Od_Datum">
+                          <Contents.>
+                            <ERTextFormatString ID.="{4AC44201-E513-4E4C-8328-A5F7E57B9870}" Transformation="{016CB91C-5316-49D5-9DB2-C27DC7CC6A4D}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{33E1EBA6-7A4B-456F-BD42-74504E899202}" Name="Do_Datum">
+                          <Contents.>
+                            <ERTextFormatString ID.="{A480A4B6-9A67-4D69-A6A3-82BF66B3D4D6}" Transformation="{016CB91C-5316-49D5-9DB2-C27DC7CC6A4D}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{8D189883-8EDD-486F-A189-CF5157616CCF}" Name="ElektronskaPosta">
+                          <Contents.>
+                            <ERTextFormatString ID.="{6D07F13D-7F02-49D7-8576-1535347052F6}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{B888876D-DDFC-4419-92AB-C44219BDE362}" Name="Mesto">
+                          <Contents.>
+                            <ERTextFormatString ID.="{4A59415D-2819-461B-85D6-2806FE294931}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{0124AED9-1E38-4C3B-9121-A21999E9C38D}" Name="Datum_Prijave">
+                          <Contents.>
+                            <ERTextFormatString ID.="{7BBFF273-5277-4B95-87FD-B398DDB1B5FC}" Transformation="{016CB91C-5316-49D5-9DB2-C27DC7CC6A4D}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{24248AE8-6855-4E73-817F-5D02C376C3B9}" Name="OdgovornoLice">
+                          <Contents.>
+                            <ERTextFormatString ID.="{6BFD6565-8C4E-4938-A598-9364DBFC9DCF}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{6B61290E-CF58-46B4-87C3-0FCEA132BC63}" Name="Iznos_001">
+                          <Contents.>
+                            <ERTextFormatString ID.="{FD120C57-FEB3-495A-A661-FD3E93C18F2B}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{2CA0BF5C-6EC0-4DFE-82E0-CC991E9D1DE5}" Name="Iznos_002">
+                          <Contents.>
+                            <ERTextFormatString ID.="{28775B5F-5CAE-415D-BC3D-DEC373796D43}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{B402DB0E-85F6-4A10-974F-3DF662D29D93}" Name="Iznos_003">
+                          <Contents.>
+                            <ERTextFormatString ID.="{91DEB288-58A6-41DF-BD17-3CEA6EE70E58}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{40116E7C-79B8-447A-AB3C-E34A45802D3E}" Name="Iznos_103">
+                          <Contents.>
+                            <ERTextFormatString ID.="{54B64954-AE74-4FE4-BACA-F427642A0106}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{160C4541-9B0F-423E-983C-46D4E8E21922}" Name="Iznos_004">
+                          <Contents.>
+                            <ERTextFormatString ID.="{EA8919EA-7BB9-4184-A8E7-119A012CFDBB}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{3ECADC24-FC8C-40D5-9D24-ABA50E216C49}" Name="Iznos_104">
+                          <Contents.>
+                            <ERTextFormatString ID.="{8BD6BF7D-F88B-4CB1-BB33-8DCA9844C4C8}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{B1401BBA-7630-45C1-A33E-CC8B20E728EF}" Name="Iznos_005">
+                          <Contents.>
+                            <ERTextFormatString ID.="{9C737B03-CCE9-4A54-9869-8D9C16EAB567}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{50F8CD33-B91A-473F-ABE0-0B188983F2C3}" Name="Iznos_105">
+                          <Contents.>
+                            <ERTextFormatString ID.="{8DA16A1A-0987-47C3-9C5D-D58D24DDD649}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{10C83D89-901E-4E00-836A-BC0E1F452126}" Name="Iznos_006">
+                          <Contents.>
+                            <ERTextFormatString ID.="{4BEF05C9-FEF8-4F43-A8E5-10316918897E}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{67E9387D-4D66-4C36-A0B4-0756BB5DF5D5}" Name="Iznos_106">
+                          <Contents.>
+                            <ERTextFormatString ID.="{923B90BE-48FB-45D3-B6E2-73262BF5710E}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{75206D1E-EBE1-4A39-803A-8AB562F532FA}" Name="Iznos_007">
+                          <Contents.>
+                            <ERTextFormatString ID.="{444D74E4-5866-4877-B06A-EAA9AE37BA12}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{8F6A3660-7201-4FB3-BBA6-ADFC2A838A93}" Name="Iznos_107">
+                          <Contents.>
+                            <ERTextFormatString ID.="{72484812-C685-4F8F-82BF-605DE872F8C8}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{3E0EE8C3-777F-43C0-BA09-9EE0343618BA}" Name="Iznos_008">
+                          <Contents.>
+                            <ERTextFormatString ID.="{C6A4399B-3489-4D8A-874C-8E9D779A5164}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{DF95E48A-6399-41D5-9BCB-E7A5366C5A68}" Name="Iznos_108">
+                          <Contents.>
+                            <ERTextFormatString ID.="{B91BE6A4-80A6-49E4-9DE2-592067D976A6}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{2F770DD8-6099-4D40-9D14-24BC057AD75C}" Name="Iznos_009">
+                          <Contents.>
+                            <ERTextFormatString ID.="{0A249B8B-E996-418A-9651-4F72096F8075}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{082CDDCA-EF31-420F-8D65-038B7B3AECDA}" Name="Iznos_109">
+                          <Contents.>
+                            <ERTextFormatString ID.="{F4663A16-707F-4C09-BED3-49CF09D2E06C}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{94EA769B-2F70-4AE2-8EDC-5E4A8754E7C4}" Name="Iznos_110">
+                          <Contents.>
+                            <ERTextFormatString ID.="{EB7FD192-AA39-4A8F-809F-7E4617F128FD}" Transformation="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{4AA993A1-3B8B-47AE-9A69-07D9E809C5DC}" Name="PovracajDA">
+                          <Contents.>
+                            <ERTextFormatString ID.="{53F8F896-84AA-468F-8D89-C26E1D86A86F}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{BC4D3375-83F6-4365-B8AD-84BBB3DF661E}" Name="PovracajNE">
+                          <Contents.>
+                            <ERTextFormatString ID.="{DC0BD8A9-7BFB-46A2-953E-20D6B75EBD66}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{BC02A81F-A59E-416F-9456-331A6F5F6EA5}" Name="PeriodPOB">
+                          <Contents.>
+                            <ERTextFormatString ID.="{76B1B120-48F0-42D9-899D-81B649061A59}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{57D6D10C-A59E-40AA-AEC5-C296E2E125A3}" Name="TipPodnosioca">
+                          <Contents.>
+                            <ERTextFormatString ID.="{DEDF13C7-D6AF-4767-AD8D-1D04CAC5C2CC}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                        <ERTextFormatXMLElement ID.="{5B47B67A-7C88-4F1C-BED1-6A3C79C66F87}" Name="IzmenaPrijave">
+                          <Contents.>
+                            <ERTextFormatString ID.="{7C446EA5-9096-4DAE-AF10-D15ED283063D}" />
+                          </Contents.>
+                        </ERTextFormatXMLElement>
+                      </Contents.>
+                    </ERTextFormatXMLElement>
+                  </Contents.>
+                </ERTextFormatXMLElement>
+              </Contents.>
+            </ERTextFormatXMLElement>
+          </Root>
+          <TransformationRepository>
+            <ErNamedTransformationsRepository>
+              <Contents.>
+                <ErNamedTextTransformation ID.="{D59FB95E-1C3F-43BE-A53A-949F7829F184}" Name="DateFormat yyyy-MM-dd Transform">
+                  <Transformation>
+                    <ErExpressionTransformation ID.="{016CB91C-5316-49D5-9DB2-C27DC7CC6A4D}" ExpressionAsString="IF(parameter = NULLDATE(), &#xA;&#xA;&quot;&quot;,&#xA;&#xA;DATEFORMAT(parameter, &quot;yyyy-MM-dd&quot;)&#xA;&#xA;)" ParameterType="7" SyntaxVersion="1">
+                      <Expression>
+                        <ERExpressionGenericIf>
+                          <Condition>
+                            <ERExpressionDateEquals>
+                              <FirstExpression>
+                                <ERExpressionDateItemValue ItemPath="parameter" />
+                              </FirstExpression>
+                              <SecondExpression>
+                                <ERExpressionDateNull />
+                              </SecondExpression>
+                            </ERExpressionDateEquals>
+                          </Condition>
+                          <FalseValue>
+                            <ERExpressionDateFormat>
+                              <Date>
+                                <ERExpressionDateItemValue ItemPath="parameter" />
+                              </Date>
+                              <Format>
+                                <ERExpressionStringConstant Value="yyyy-MM-dd" />
+                              </Format>
+                            </ERExpressionDateFormat>
+                          </FalseValue>
+                          <TrueValue>
+                            <ERExpressionStringConstant />
+                          </TrueValue>
+                        </ERExpressionGenericIf>
+                      </Expression>
+                    </ErExpressionTransformation>
+                  </Transformation>
+                </ErNamedTextTransformation>
+                <ErNamedTextTransformation ID.="{A5D550D5-F118-4FA8-A36C-11414CC0FBCA}" Name="RoundNumberToZeroDecimalPlaces">
+                  <Transformation>
+                    <ErExpressionTransformation ID.="{7525EA5F-43D4-4A8B-9D3F-4C3A253DB0CC}" ExpressionAsString="ROUND(parameter, 0)" ParameterType="5" SyntaxVersion="1">
+                      <Expression>
+                        <ERExpressionRealRound>
+                          <Decimals>
+                            <ERExpressionIntConstant />
+                          </Decimals>
+                          <Number>
+                            <ERExpressionRealItemValue ItemPath="parameter" />
+                          </Number>
+                        </ERExpressionRealRound>
+                      </Expression>
+                    </ErExpressionTransformation>
+                  </Transformation>
+                </ErNamedTextTransformation>
+                <ErNamedTextTransformation ID.="{D2CBC9E8-339D-4DC0-B2C8-5138608FAD2C}" Name="DateTimeFormat yyyy-MM-ddTHH:mm:ss Transform">
+                  <Transformation>
+                    <ErExpressionTransformation ID.="{E5531457-16C8-430F-A3E2-BC50B54DC618}" ExpressionAsString="DATETIMEFORMAT(parameter, &quot;yyyy-MM-ddThh:mm:ss&quot;)" ParameterType="14" SyntaxVersion="1">
+                      <Expression>
+                        <ERExpressionDateTimeFormat>
+                          <DateTime>
+                            <ERExpressionDateTimeItemValue ItemPath="parameter" />
+                          </DateTime>
+                          <Format>
+                            <ERExpressionStringConstant Value="yyyy-MM-ddThh:mm:ss" />
+                          </Format>
+                        </ERExpressionDateTimeFormat>
+                      </Expression>
+                    </ErExpressionTransformation>
+                  </Transformation>
+                </ErNamedTextTransformation>
+              </Contents.>
+            </ErNamedTransformationsRepository>
+          </TransformationRepository>
+        </ERTextFormat>
+      </Format>
+    </ERFormatVersion>
+    <ERFormatMappingVersion ID.="{FC0D5F28-CAC9-4DB7-AA60-AB7010C9AD55},5" DateTime="2017-03-29T11:49:49" Number="5">
+      <Mapping>
+        <ERFormatMapping ID.="{FC0D5F28-CAC9-4DB7-AA60-AB7010C9AD55}" Format="{8A1DE431-D688-4C59-A57E-055DE168B9F4}" FormatVersion="{8A1DE431-D688-4C59-A57E-055DE168B9F4},3" Name="PPPDVXmlFormat">
+          <Binding>
+            <ERFormatBinding>
+              <Contents.>
+                <ERFormatComponentPropertyBinding Component="{FD120C57-FEB3-495A-A661-FD3E93C18F2B}" ExpressionAsString="model.PodaciReportTjelo.Iznos_001">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_001" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{28775B5F-5CAE-415D-BC3D-DEC373796D43}" ExpressionAsString="model.PodaciReportTjelo.Iznos_002">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_002" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{91DEB288-58A6-41DF-BD17-3CEA6EE70E58}" ExpressionAsString="model.PodaciReportTjelo.Iznos_003">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_003" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{54B64954-AE74-4FE4-BACA-F427642A0106}" ExpressionAsString="model.PodaciReportTjelo.Iznos_103">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_103" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{EA8919EA-7BB9-4184-A8E7-119A012CFDBB}" ExpressionAsString="model.PodaciReportTjelo.Iznos_004">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_004" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{8BD6BF7D-F88B-4CB1-BB33-8DCA9844C4C8}" ExpressionAsString="model.PodaciReportTjelo.Iznos_104">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_104" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{9C737B03-CCE9-4A54-9869-8D9C16EAB567}" ExpressionAsString="model.PodaciReportTjelo.Iznos_005">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_005" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{8DA16A1A-0987-47C3-9C5D-D58D24DDD649}" ExpressionAsString="model.PodaciReportTjelo.Iznos_105">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_105" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{4BEF05C9-FEF8-4F43-A8E5-10316918897E}" ExpressionAsString="model.PodaciReportTjelo.Iznos_006">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_006" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{923B90BE-48FB-45D3-B6E2-73262BF5710E}" ExpressionAsString="model.PodaciReportTjelo.Iznos_106">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_106" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{444D74E4-5866-4877-B06A-EAA9AE37BA12}" ExpressionAsString="model.PodaciReportTjelo.Iznos_007">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_007" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{72484812-C685-4F8F-82BF-605DE872F8C8}" ExpressionAsString="model.PodaciReportTjelo.Iznos_107">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_107" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{C6A4399B-3489-4D8A-874C-8E9D779A5164}" ExpressionAsString="model.PodaciReportTjelo.Iznos_008">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_008" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{B91BE6A4-80A6-49E4-9DE2-592067D976A6}" ExpressionAsString="model.PodaciReportTjelo.Iznos_108">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_108" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{0A249B8B-E996-418A-9651-4F72096F8075}" ExpressionAsString="model.PodaciReportTjelo.Iznos_009">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_009" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{F4663A16-707F-4C09-BED3-49CF09D2E06C}" ExpressionAsString="model.PodaciReportTjelo.Iznos_109">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_109" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{EB7FD192-AA39-4A8F-809F-7E4617F128FD}" ExpressionAsString="model.PodaciReportTjelo.Iznos_110">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_110" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{DEDF13C7-D6AF-4767-AD8D-1D04CAC5C2CC}" ExpressionAsString="model.PodaciReportTjelo.Tip_Podnosioca">
+                  <Expression>
+                    <erExpressionIntItemValue ItemPath="model/PodaciReportTjelo/Tip_Podnosioca" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{76B1B120-48F0-42D9-899D-81B649061A59}" ExpressionAsString="model.PodaciReportTjelo.Period_POB">
+                  <Expression>
+                    <erExpressionIntItemValue ItemPath="model/PodaciReportTjelo/Period_POB" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{7C446EA5-9096-4DAE-AF10-D15ED283063D}" ExpressionAsString="model.PodaciReportTjelo.Izmena_Prijave">
+                  <Expression>
+                    <erExpressionIntItemValue ItemPath="model/PodaciReportTjelo/Izmena_Prijave" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{6BFD6565-8C4E-4938-A598-9364DBFC9DCF}" ExpressionAsString="model.PodaciReportGlava.Odgovorno_Lice">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Odgovorno_Lice" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{4A59415D-2819-461B-85D6-2806FE294931}" ExpressionAsString="model.PodaciReportGlava.Mesto">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Mesto" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{6D07F13D-7F02-49D7-8576-1535347052F6}" ExpressionAsString="model.PodaciReportGlava.Elektronska_Posta">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Elektronska_Posta" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{D203D961-8E66-48F8-925E-235241E7711B}" ExpressionAsString="model.PodaciReportGlava.Mesto">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Mesto" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{34CE3FBC-D583-4CEE-ADDA-0371F72E4A18}" ExpressionAsString="model.PodaciReportGlava.Firma">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Firma" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{C2C3F612-AE56-4831-A003-45F9047A21A5}" ExpressionAsString="model.PodaciReportGlava.PIB">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/PIB" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{4F4F5EF4-2F8F-423F-BD38-56A042C2C810}" ExpressionAsString="model.PodaciReportGlava.Mesto">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Mesto" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{7BBFF273-5277-4B95-87FD-B398DDB1B5FC}" ExpressionAsString="model.PodaciReportGlava.Datum_Prijave" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionDateItemValue ItemPath="model/PodaciReportGlava/Datum_Prijave" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{4AC44201-E513-4E4C-8328-A5F7E57B9870}" ExpressionAsString="model.PodaciReportGlava.DatumOd">
+                  <Expression>
+                    <ERExpressionDateItemValue ItemPath="model/PodaciReportGlava/DatumOd" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{A480A4B6-9A67-4D69-A6A3-82BF66B3D4D6}" ExpressionAsString="model.PodaciReportGlava.DatumDo">
+                  <Expression>
+                    <ERExpressionDateItemValue ItemPath="model/PodaciReportGlava/DatumDo" />
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{48663ABD-C5EC-4ADC-B346-7BAF21993D84}" ExpressionAsString="DATETIMEFORMAT(model.PodaciReportGlava.TimeStamp, &quot;yyyy-MM-ddThh:mm:ss&quot;)" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionDateTimeFormat>
+                      <DateTime>
+                        <ERExpressionDateTimeItemValue ItemPath="model/PodaciReportGlava/TimeStamp" />
+                      </DateTime>
+                      <Format>
+                        <ERExpressionStringConstant Value="yyyy-MM-ddThh:mm:ss" />
+                      </Format>
+                    </ERExpressionDateTimeFormat>
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{53F8F896-84AA-468F-8D89-C26E1D86A86F}" ExpressionAsString="IF(AND(model.PodaciReportTjelo.Iznos_110 &lt;= 0, model.PodaciReportTjelo.Povracaj), &quot;true&quot;, &quot;false&quot;)" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionGenericIf>
+                      <Condition>
+                        <ERExpressionAnd>
+                          <Contents.>
+                            <ERExpressionNumericLesserOrEqual>
+                              <FirstExpression>
+                                <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_110" />
+                              </FirstExpression>
+                              <SecondExpression>
+                                <ERExpressionIntConstant />
+                              </SecondExpression>
+                            </ERExpressionNumericLesserOrEqual>
+                            <erExpressionBooleanItemValue ItemPath="model/PodaciReportTjelo/Povracaj" />
+                          </Contents.>
+                        </ERExpressionAnd>
+                      </Condition>
+                      <FalseValue>
+                        <ERExpressionStringConstant Value="false" />
+                      </FalseValue>
+                      <TrueValue>
+                        <ERExpressionStringConstant Value="true" />
+                      </TrueValue>
+                    </ERExpressionGenericIf>
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{DC0BD8A9-7BFB-46A2-953E-20D6B75EBD66}" ExpressionAsString="IF(AND(model.PodaciReportTjelo.Iznos_110 &lt;= 0, NOT(model.PodaciReportTjelo.Povracaj)), &quot;true&quot;, &quot;false&quot;)" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionGenericIf>
+                      <Condition>
+                        <ERExpressionAnd>
+                          <Contents.>
+                            <ERExpressionNumericLesserOrEqual>
+                              <FirstExpression>
+                                <ERExpressionRealItemValue ItemPath="model/PodaciReportTjelo/Iznos_110" />
+                              </FirstExpression>
+                              <SecondExpression>
+                                <ERExpressionIntConstant />
+                              </SecondExpression>
+                            </ERExpressionNumericLesserOrEqual>
+                            <erExpressionNot>
+                              <Input>
+                                <erExpressionBooleanItemValue ItemPath="model/PodaciReportTjelo/Povracaj" />
+                              </Input>
+                            </erExpressionNot>
+                          </Contents.>
+                        </ERExpressionAnd>
+                      </Condition>
+                      <FalseValue>
+                        <ERExpressionStringConstant Value="false" />
+                      </FalseValue>
+                      <TrueValue>
+                        <ERExpressionStringConstant Value="true" />
+                      </TrueValue>
+                    </ERExpressionGenericIf>
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+                <ERFormatComponentPropertyBinding Component="{03F4B9D0-BBCC-4E6D-A90B-88CE51AC8748}" ExpressionAsString="IF(AND(model.PodaciReportGlava.Ulica = &quot;&quot;, model.PodaciReportGlava.'Kucna stevilka' = &quot;&quot;), &#xA;&#xA;CONCATENATE(model.PodaciReportGlava.Ulica, model.PodaciReportGlava.'Kucna stevilka'),&#xA;CONCATENATE(model.PodaciReportGlava.Ulica, &quot; &quot;, model.PodaciReportGlava.'Kucna stevilka')&#xA;)" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionGenericIf>
+                      <Condition>
+                        <ERExpressionAnd>
+                          <Contents.>
+                            <ERExpressionStringEquals>
+                              <FirstExpression>
+                                <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Ulica" />
+                              </FirstExpression>
+                              <SecondExpression>
+                                <ERExpressionStringConstant />
+                              </SecondExpression>
+                            </ERExpressionStringEquals>
+                            <ERExpressionStringEquals>
+                              <FirstExpression>
+                                <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Kucna stevilka" />
+                              </FirstExpression>
+                              <SecondExpression>
+                                <ERExpressionStringConstant />
+                              </SecondExpression>
+                            </ERExpressionStringEquals>
+                          </Contents.>
+                        </ERExpressionAnd>
+                      </Condition>
+                      <FalseValue>
+                        <ERExpressionStringConcatenate>
+                          <Contents.>
+                            <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Ulica" />
+                            <ERExpressionStringConstant Value=" " />
+                            <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Kucna stevilka" />
+                          </Contents.>
+                        </ERExpressionStringConcatenate>
+                      </FalseValue>
+                      <TrueValue>
+                        <ERExpressionStringConcatenate>
+                          <Contents.>
+                            <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Ulica" />
+                            <ERExpressionStringItemValue ItemPath="model/PodaciReportGlava/Kucna stevilka" />
+                          </Contents.>
+                        </ERExpressionStringConcatenate>
+                      </TrueValue>
+                    </ERExpressionGenericIf>
+                  </Expression>
+                </ERFormatComponentPropertyBinding>
+              </Contents.>
+            </ERFormatBinding>
+          </Binding>
+          <Datasource>
+            <ERModelDefinition>
+              <PathsToCache>
+                <ERPathsToCache />
+              </PathsToCache>
+              <Contents.>
+                <ERModelItemDefinition>
+                  <ValueDefinition>
+                    <ERModelItemValueDefinition Name="model">
+                      <ValueSource>
+                        <ERModelDataSourceHandler DataContainerDescriptorName="PPPDV" ModelGUID="{5F929E27-E4D5-4B5F-AC6B-36CF0CA2CD3D}" RevisionNumber="3" />
+                      </ValueSource>
+                    </ERModelItemValueDefinition>
+                  </ValueDefinition>
+                </ERModelItemDefinition>
+              </Contents.>
+            </ERModelDefinition>
+          </Datasource>
+        </ERFormatMapping>
+      </Mapping>
+    </ERFormatMappingVersion>
+  </Contents.>
+</ERSolutionVersion>

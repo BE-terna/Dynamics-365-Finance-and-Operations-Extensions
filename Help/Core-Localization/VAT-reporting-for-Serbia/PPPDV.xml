@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ERSolutionVersion DateTime="2017-03-31T11:10:27" Description="CoRegNum to TaxIdentification_RS" Number="5" PublicVersionNumber="5" VersionStatus="1">
+  <Solution>
+    <ERSolution ID.="{0812F159-AD20-4BB8-9372-1FFFA227F63C}" Name="PPPDV">
+      <Vendor>
+        <ERVendor Name="Adacta" Url="http://adacta-group.com" />
+      </Vendor>
+      <Contents.>
+        <Ref. ID.="{5F929E27-E4D5-4B5F-AC6B-36CF0CA2CD3D}" />
+        <Ref. ID.="{2274F6AE-FE6B-4B79-8459-40D0F52FD178}" />
+      </Contents.>
+    </ERSolution>
+  </Solution>
+  <Contents.>
+    <ERDataModelVersion ID.="{5F929E27-E4D5-4B5F-AC6B-36CF0CA2CD3D},3" DateTime="2017-03-29T11:33:09" Number="3">
+      <Model>
+        <ERDataModel ID.="{5F929E27-E4D5-4B5F-AC6B-36CF0CA2CD3D}" Name="PPPDV">
+          <Contents.>
+            <ERDataContainerDescriptor ID.="PPPDV" IsRoot="1" Name="PPPDV">
+              <Contents.>
+                <ERDataContainerDescriptorItem IsTypeDescriptorHost="1" Name="PodaciReportGlava" Type="10" TypeDescriptor="CompanyData_1" />
+                <ERDataContainerDescriptorItem IsTypeDescriptorHost="1" Name="PodaciReportTjelo" Type="10" TypeDescriptor="ReportData_1" />
+              </Contents.>
+            </ERDataContainerDescriptor>
+            <ERDataContainerDescriptor ID.="CompanyData_1" Name="CompanyData_1">
+              <Contents.>
+                <ERDataContainerDescriptorItem Name="Datum_Prijave" Type="7" />
+                <ERDataContainerDescriptorItem Name="DatumDo" Type="7" />
+                <ERDataContainerDescriptorItem Name="DatumOd" Type="7" />
+                <ERDataContainerDescriptorItem Name="Elektronska_Posta" Type="6" />
+                <ERDataContainerDescriptorItem Name="Firma" Type="6" />
+                <ERDataContainerDescriptorItem Name="Kucna stevilka" Type="6" />
+                <ERDataContainerDescriptorItem Name="Mesto" Type="6" />
+                <ERDataContainerDescriptorItem Name="Odgovorno_Lice" Type="6" />
+                <ERDataContainerDescriptorItem Name="OJ" Type="6" />
+                <ERDataContainerDescriptorItem Name="Opstina" Type="6" />
+                <ERDataContainerDescriptorItem Name="PIB" Type="6" />
+                <ERDataContainerDescriptorItem Name="TimeStamp" Type="14" />
+                <ERDataContainerDescriptorItem Name="Ulica" Type="6" />
+              </Contents.>
+            </ERDataContainerDescriptor>
+            <ERDataContainerDescriptor ID.="ReportData_1" Name="ReportData_1">
+              <Contents.>
+                <ERDataContainerDescriptorItem Name="Izmena_Prijave" Type="4" />
+                <ERDataContainerDescriptorItem Name="Iznos_001" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_002" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_003" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_004" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_005" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_006" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_007" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_008" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_009" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_103" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_104" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_105" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_106" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_107" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_108" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_109" Type="5" />
+                <ERDataContainerDescriptorItem Name="Iznos_110" Type="5" />
+                <ERDataContainerDescriptorItem Name="Period_POB" Type="4" />
+                <ERDataContainerDescriptorItem Name="Povracaj" Type="1" />
+                <ERDataContainerDescriptorItem Name="Tip_Podnosioca" Type="4" />
+              </Contents.>
+            </ERDataContainerDescriptor>
+          </Contents.>
+        </ERDataModel>
+      </Model>
+    </ERDataModelVersion>
+    <ERModelMappingVersion ID.="{2274F6AE-FE6B-4B79-8459-40D0F52FD178},5" DateTime="2017-03-31T11:10:27" Description="CoRegNum to TaxIdentification_RS" Number="5">
+      <Mapping>
+        <ERModelMapping ID.="{2274F6AE-FE6B-4B79-8459-40D0F52FD178}" DataContainerDescriptor="PPPDV" Model="{5F929E27-E4D5-4B5F-AC6B-36CF0CA2CD3D}" ModelName="PPPDV" ModelVersion="{5F929E27-E4D5-4B5F-AC6B-36CF0CA2CD3D},3">
+          <Binding>
+            <ERDataContainerBinding>
+              <Contents.>
+                <ERDataContainerPathBinding ExpressionAsString="0" Path="PodaciReportTjelo/Izmena_Prijave" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionIntConstant />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="1" Path="PodaciReportTjelo/Period_POB" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionIntConstant Value="1" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="1" Path="PodaciReportTjelo/Tip_Podnosioca" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionIntConstant Value="1" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field001" Path="PodaciReportTjelo/Iznos_001">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field001" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field002" Path="PodaciReportTjelo/Iznos_002">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field002" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field003" Path="PodaciReportTjelo/Iznos_003">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field003" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field004" Path="PodaciReportTjelo/Iznos_004">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field004" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field005" Path="PodaciReportTjelo/Iznos_005">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field005" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field006" Path="PodaciReportTjelo/Iznos_006">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field006" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field007" Path="PodaciReportTjelo/Iznos_007">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field007" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field008" Path="PodaciReportTjelo/Iznos_008">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field008" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field009" Path="PodaciReportTjelo/Iznos_009">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field009" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field103" Path="PodaciReportTjelo/Iznos_103">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field103" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field104" Path="PodaciReportTjelo/Iznos_104">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field104" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field105" Path="PodaciReportTjelo/Iznos_105">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field105" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field106" Path="PodaciReportTjelo/Iznos_106">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field106" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field107" Path="PodaciReportTjelo/Iznos_107">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field107" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field108" Path="PodaciReportTjelo/Iznos_108">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field108" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field109" Path="PodaciReportTjelo/Iznos_109">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field109" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.Field110" Path="PodaciReportTjelo/Iznos_110">
+                  <Expression>
+                    <ERExpressionRealItemValue ItemPath="TaxReportTmp_RS/Field110" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="LogisticsPostalAddress.City" Path="PodaciReportGlava/OJ">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="LogisticsPostalAddress/City" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="LogisticsPostalAddress.City" Path="PodaciReportGlava/Mesto">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="LogisticsPostalAddress/City" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="LogisticsPostalAddress.StreetNumber" Path="PodaciReportGlava/Kucna stevilka">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="LogisticsPostalAddress/StreetNumber" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="LogisticsPostalAddress.Street" Path="PodaciReportGlava/Ulica">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="LogisticsPostalAddress/Street" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="CompanyInfo.Name" Path="PodaciReportGlava/Firma">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="CompanyInfo/Name" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="LogisticsPostalAddress.City" Path="PodaciReportGlava/Opstina">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="LogisticsPostalAddress/City" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxParameters.VATResponsiblePersonEmail_RS" Path="PodaciReportGlava/Elektronska_Posta">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="TaxParameters/VATResponsiblePersonEmail_RS" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxParameters.VATResponsiblePerson_RS" Path="PodaciReportGlava/Odgovorno_Lice">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="TaxParameters/VATResponsiblePerson_RS" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TODAY()" Path="PodaciReportGlava/Datum_Prijave" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionDateToday />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="IF(TaxParameters.TaxRefund_RS = NoYes.Yes, true, false)" Path="PodaciReportTjelo/Povracaj" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionGenericIf>
+                      <Condition>
+                        <ERExpressionEnumEquals>
+                          <FirstExpression>
+                            <ERExpressionEnumItemValue ItemPath="TaxParameters/TaxRefund_RS" />
+                          </FirstExpression>
+                          <SecondExpression>
+                            <ERExpressionEnumItemValue ItemPath="NoYes/Yes" />
+                          </SecondExpression>
+                        </ERExpressionEnumEquals>
+                      </Condition>
+                      <FalseValue>
+                        <ERExpressionBooleanConstant />
+                      </FalseValue>
+                      <TrueValue>
+                        <ERExpressionBooleanConstant Value="1" />
+                      </TrueValue>
+                    </ERExpressionGenericIf>
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="NOW()" Path="PodaciReportGlava/TimeStamp" SyntaxVersion="1">
+                  <Expression>
+                    <ERExpressionDateTimeNow />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.ToDate" Path="PodaciReportGlava/DatumDo">
+                  <Expression>
+                    <ERExpressionDateItemValue ItemPath="TaxReportTmp_RS/ToDate" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="TaxReportTmp_RS.FromDate" Path="PodaciReportGlava/DatumOd">
+                  <Expression>
+                    <ERExpressionDateItemValue ItemPath="TaxReportTmp_RS/FromDate" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+                <ERDataContainerPathBinding ExpressionAsString="CompanyInfo.TaxIdentification_RS" Path="PodaciReportGlava/PIB">
+                  <Expression>
+                    <ERExpressionStringItemValue ItemPath="CompanyInfo/TaxIdentification_RS" />
+                  </Expression>
+                </ERDataContainerPathBinding>
+              </Contents.>
+            </ERDataContainerBinding>
+          </Binding>
+          <Datasource>
+            <ERModelDefinition>
+              <PathsToCache>
+                <ERPathsToCache />
+              </PathsToCache>
+              <Contents.>
+                <ERModelItemDefinition>
+                  <ValueDefinition>
+                    <ERModelItemValueDefinition Name="LogisticsPostalAddress">
+                      <ValueSource>
+                        <ERTableDataSourceHandler AskForQuery="1" Table="LogisticsPostalAddress" />
+                      </ValueSource>
+                    </ERModelItemValueDefinition>
+                  </ValueDefinition>
+                </ERModelItemDefinition>
+                <ERModelItemDefinition>
+                  <ValueDefinition>
+                    <ERModelItemValueDefinition Name="TaxParameters">
+                      <ValueSource>
+                        <ERTableDataSourceHandler AskForQuery="1" Table="TaxParameters" />
+                      </ValueSource>
+                    </ERModelItemValueDefinition>
+                  </ValueDefinition>
+                </ERModelItemDefinition>
+                <ERModelItemDefinition>
+                  <ValueDefinition>
+                    <ERModelItemValueDefinition Name="CompanyInfo">
+                      <ValueSource>
+                        <ERTableDataSourceHandler AskForQuery="1" Table="CompanyInfo" />
+                      </ValueSource>
+                    </ERModelItemValueDefinition>
+                  </ValueDefinition>
+                </ERModelItemDefinition>
+                <ERModelItemDefinition>
+                  <ValueDefinition>
+                    <ERModelItemValueDefinition Name="TaxReportTmp_RS">
+                      <ValueSource>
+                        <ERTableDataSourceHandler AskForQuery="1" Table="TaxReportTmp_RS" />
+                      </ValueSource>
+                    </ERModelItemValueDefinition>
+                  </ValueDefinition>
+                </ERModelItemDefinition>
+                <ERModelItemDefinition>
+                  <ValueDefinition>
+                    <ERModelItemValueDefinition Name="NoYes">
+                      <ValueSource>
+                        <EREnumDataSourceHandler EnumName="NoYes" />
+                      </ValueSource>
+                    </ERModelItemValueDefinition>
+                  </ValueDefinition>
+                </ERModelItemDefinition>
+              </Contents.>
+            </ERModelDefinition>
+          </Datasource>
+          <Validations>
+            <ERDataContainerBinding />
+          </Validations>
+        </ERModelMapping>
+      </Mapping>
+    </ERModelMappingVersion>
+  </Contents.>
+</ERSolutionVersion>
